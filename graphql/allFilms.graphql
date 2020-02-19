@@ -1,0 +1,13 @@
+query AllFilms {
+  allFilms {
+    title
+    characters {
+      id
+      name
+    }
+    starships {
+      id
+      name
+    }
+  }
+}

@@ -1,0 +1,10 @@
+query AllPersons {
+  allPersons {
+    id
+    name
+    films {
+      id
+      title
+    }
+  }
+}

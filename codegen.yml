@@ -1,0 +1,15 @@
+overwrite: true
+# schema: "https://api.graphcms.com/simple/v1/swapi"
+schema: "https://swapi.graph.cool/"
+documents: "graphql/*.graphql"
+generates:
+  generated/graphql.tsx:
+    plugins:
+      - "typescript"
+      - "typescript-operations"
+      - "typescript-react-apollo"
+    config:
+      reactApolloVersion: 3
+      withHOC: false
+      withComponent: false 
+      withHooks: true
