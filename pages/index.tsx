@@ -1,5 +1,6 @@
 import React, { FC, useEffect } from "react";
 import { GetProps } from "../interfaces/GetProps";
+import { useRouter } from "next/dist/client/router";
 
 import { useTypeFilter } from "../hooks/useTypeFilter";
 import withData from "../HOC/withData";
@@ -9,10 +10,10 @@ import PersonItem from "../components/items/PersonItem";
 import StarshipItem from "../components/items/StarshipItem";
 
 const Landing: GetProps<any> = ({ shortId }) => {
-  const [state, dispatch] = useTypeFilter();
+  const [state, dispatch, handlers] = useTypeFilter();
 
   return (
-    <Layout state={state} dispatch={dispatch}>
+    <Layout state={state} dispatch={dispatch} handlers={handlers}>
       <h1>Currently browsing {state.browseType}</h1>
       {state.isLoading && <h2>Loading...</h2>}
       {state.browseType === "films" &&

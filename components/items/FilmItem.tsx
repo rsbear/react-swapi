@@ -12,7 +12,7 @@ const FilmItem: FC<Props> = ({ title, characters, starships }) => {
       <h3> {title}</h3>
       <p>
         Characters:{" "}
-        {characters.slice(0, 5).map(({ name, id }) => (
+        {characters.slice(0, 3).map(({ name, id }) => (
           <span key={id}>{name}, &nbsp;</span>
         ))}
       </p>

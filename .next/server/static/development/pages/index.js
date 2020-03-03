@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 4);
+/******/ 	return __webpack_require__(__webpack_require__.s = 3);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -164,7 +164,7 @@ const FilmItem = ({
       lineNumber: 13
     },
     __self: undefined
-  }, "Characters:", " ", characters.slice(0, 5).map(({
+  }, "Characters:", " ", characters.slice(0, 3).map(({
     name,
     id
   }) => __jsx("span", {
@@ -196,7 +196,7 @@ const FilmItem = ({
   }, name, ", \xA0"))), __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
     id: "3733796175",
     __self: undefined
-  }, "div.jsx-3733796175{margin:4px 0;padding:4px 20px;border:solid 1px rgba(20,20,20,0.1);}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9yc2JlYXIvZGV2L3N3YXBpcGxheWdyb3VuZC93ZWJhcHAvY29tcG9uZW50cy9pdGVtcy9GaWxtSXRlbS50c3giXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBd0JrQixBQUd3QixhQUNJLGlCQUNzQixvQ0FDekMiLCJmaWxlIjoiL1VzZXJzL3JzYmVhci9kZXYvc3dhcGlwbGF5Z3JvdW5kL3dlYmFwcC9jb21wb25lbnRzL2l0ZW1zL0ZpbG1JdGVtLnRzeCIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBSZWFjdCwgeyBGQyB9IGZyb20gXCJyZWFjdFwiO1xuXG5pbnRlcmZhY2UgUHJvcHMge1xuICB0aXRsZTogc3RyaW5nO1xuICBjaGFyYWN0ZXJzPzogYW55O1xuICBzdGFyc2hpcHM/OiBhbnk7XG59XG5cbmNvbnN0IEZpbG1JdGVtOiBGQzxQcm9wcz4gPSAoeyB0aXRsZSwgY2hhcmFjdGVycywgc3RhcnNoaXBzIH0pID0+IHtcbiAgcmV0dXJuIChcbiAgICA8ZGl2PlxuICAgICAgPGgzPiB7dGl0bGV9PC9oMz5cbiAgICAgIDxwPlxuICAgICAgICBDaGFyYWN0ZXJzOntcIiBcIn1cbiAgICAgICAge2NoYXJhY3RlcnMuc2xpY2UoMCwgNSkubWFwKCh7IG5hbWUsIGlkIH0pID0+IChcbiAgICAgICAgICA8c3BhbiBrZXk9e2lkfT57bmFtZX0sICZuYnNwOzwvc3Bhbj5cbiAgICAgICAgKSl9XG4gICAgICA8L3A+XG4gICAgICA8cD5cbiAgICAgICAgU3RhcnNoaXBzOlxuICAgICAgICB7c3RhcnNoaXBzLm1hcCgoeyBuYW1lLCBpZCB9KSA9PiAoXG4gICAgICAgICAgPHNwYW4ga2V5PXtpZH0+e25hbWV9LCAmbmJzcDs8L3NwYW4+XG4gICAgICAgICkpfVxuICAgICAgPC9wPlxuICAgICAgPHN0eWxlIGpzeD57YFxuICAgICAgICBkaXYge1xuICAgICAgICAgIG1hcmdpbjogNHB4IDA7XG4gICAgICAgICAgcGFkZGluZzogNHB4IDIwcHg7XG4gICAgICAgICAgYm9yZGVyOiBzb2xpZCAxcHggcmdiYSgyMCwgMjAsIDIwLCAwLjEpO1xuICAgICAgICB9XG4gICAgICBgfTwvc3R5bGU+XG4gICAgPC9kaXY+XG4gICk7XG59O1xuXG5leHBvcnQgZGVmYXVsdCBGaWxtSXRlbTtcbiJdfQ== */\n/*@ sourceURL=/Users/rsbear/dev/swapiplayground/webapp/components/items/FilmItem.tsx */"));
+  }, "div.jsx-3733796175{margin:4px 0;padding:4px 20px;border:solid 1px rgba(20,20,20,0.1);}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9yc2JlYXIvZGV2L3N3YXBpcGxheWdyb3VuZC93ZWJhcHAvY29tcG9uZW50cy9pdGVtcy9GaWxtSXRlbS50c3giXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBd0JrQixBQUd3QixhQUNJLGlCQUNzQixvQ0FDekMiLCJmaWxlIjoiL1VzZXJzL3JzYmVhci9kZXYvc3dhcGlwbGF5Z3JvdW5kL3dlYmFwcC9jb21wb25lbnRzL2l0ZW1zL0ZpbG1JdGVtLnRzeCIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBSZWFjdCwgeyBGQyB9IGZyb20gXCJyZWFjdFwiO1xuXG5pbnRlcmZhY2UgUHJvcHMge1xuICB0aXRsZTogc3RyaW5nO1xuICBjaGFyYWN0ZXJzPzogYW55O1xuICBzdGFyc2hpcHM/OiBhbnk7XG59XG5cbmNvbnN0IEZpbG1JdGVtOiBGQzxQcm9wcz4gPSAoeyB0aXRsZSwgY2hhcmFjdGVycywgc3RhcnNoaXBzIH0pID0+IHtcbiAgcmV0dXJuIChcbiAgICA8ZGl2PlxuICAgICAgPGgzPiB7dGl0bGV9PC9oMz5cbiAgICAgIDxwPlxuICAgICAgICBDaGFyYWN0ZXJzOntcIiBcIn1cbiAgICAgICAge2NoYXJhY3RlcnMuc2xpY2UoMCwgMykubWFwKCh7IG5hbWUsIGlkIH0pID0+IChcbiAgICAgICAgICA8c3BhbiBrZXk9e2lkfT57bmFtZX0sICZuYnNwOzwvc3Bhbj5cbiAgICAgICAgKSl9XG4gICAgICA8L3A+XG4gICAgICA8cD5cbiAgICAgICAgU3RhcnNoaXBzOlxuICAgICAgICB7c3RhcnNoaXBzLm1hcCgoeyBuYW1lLCBpZCB9KSA9PiAoXG4gICAgICAgICAgPHNwYW4ga2V5PXtpZH0+e25hbWV9LCAmbmJzcDs8L3NwYW4+XG4gICAgICAgICkpfVxuICAgICAgPC9wPlxuICAgICAgPHN0eWxlIGpzeD57YFxuICAgICAgICBkaXYge1xuICAgICAgICAgIG1hcmdpbjogNHB4IDA7XG4gICAgICAgICAgcGFkZGluZzogNHB4IDIwcHg7XG4gICAgICAgICAgYm9yZGVyOiBzb2xpZCAxcHggcmdiYSgyMCwgMjAsIDIwLCAwLjEpO1xuICAgICAgICB9XG4gICAgICBgfTwvc3R5bGU+XG4gICAgPC9kaXY+XG4gICk7XG59O1xuXG5leHBvcnQgZGVmYXVsdCBGaWxtSXRlbTtcbiJdfQ== */\n/*@ sourceURL=/Users/rsbear/dev/swapiplayground/webapp/components/items/FilmItem.tsx */"));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (FilmItem);
@@ -333,56 +333,29 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
 const Layout = ({
   state,
   dispatch,
+  handlers,
   children
 }) => {
   // const [state, dispatch] = useTypeFilter();
-  const handleBrowseSelect = e => {
-    e.preventDefault();
-    dispatch({
-      type: "setBrowseType",
-      payload: e.target.value
-    });
-    dispatch({
-      type: "setMainList",
-      payload: []
-    });
-  };
-
-  const handleFilterByCharacter = e => {
-    e.preventDefault();
-    dispatch({
-      type: "setFilterByCharacter",
-      payload: e.target.value
-    });
-  };
-
-  const handleFilterByStarship = e => {
-    e.preventDefault();
-    dispatch({
-      type: "setFilterByStarship",
-      payload: e.target.value
-    });
-  };
-
   return __jsx("div", {
     className: "jsx-2747461224" + " " + "layout",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 25
+      lineNumber: 9
     },
     __self: undefined
   }, __jsx("h3", {
     className: "jsx-2747461224",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 26
+      lineNumber: 10
     },
     __self: undefined
   }, "SWAPI"), __jsx("nav", {
     className: "jsx-2747461224",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 27
+      lineNumber: 11
     },
     __self: undefined
   }, __jsx("label", {
@@ -390,16 +363,16 @@ const Layout = ({
     className: "jsx-2747461224",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 28
+      lineNumber: 12
     },
     __self: undefined
   }, "Browse: \xA0"), __jsx("select", {
     defaultValue: state.browseType,
-    onChange: e => handleBrowseSelect(e),
+    onChange: e => handlers.handleBrowse(e),
     className: "jsx-2747461224" + " " + "typeFilter",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 29
+      lineNumber: 13
     },
     __self: undefined
   }, __jsx("option", {
@@ -407,7 +380,7 @@ const Layout = ({
     className: "jsx-2747461224",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 34
+      lineNumber: 18
     },
     __self: undefined
   }, "Movie"), __jsx("option", {
@@ -415,7 +388,7 @@ const Layout = ({
     className: "jsx-2747461224",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 35
+      lineNumber: 19
     },
     __self: undefined
   }, "Characters"), __jsx("option", {
@@ -423,14 +396,14 @@ const Layout = ({
     className: "jsx-2747461224",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 36
+      lineNumber: 20
     },
     __self: undefined
   }, "Starships")), __jsx("h4", {
     className: "jsx-2747461224",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 38
+      lineNumber: 22
     },
     __self: undefined
   }, "|"), __jsx("label", {
@@ -438,16 +411,16 @@ const Layout = ({
     className: "jsx-2747461224",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 39
+      lineNumber: 23
     },
     __self: undefined
   }, "Filter by character: \xA0"), __jsx("select", {
     defaultValue: state.browseType,
-    onChange: e => handleFilterByCharacter(e),
+    onChange: e => handlers.handleFilterByCharacter(e),
     className: "jsx-2747461224" + " " + "filters",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 40
+      lineNumber: 24
     },
     __self: undefined
   }, __jsx("option", {
@@ -455,16 +428,16 @@ const Layout = ({
     className: "jsx-2747461224",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 45
+      lineNumber: 29
     },
     __self: undefined
-  }, "not set"), state.characterList.map((p, idx) => __jsx("option", {
+  }, "not set"), state.characterDropdownList.map((p, idx) => __jsx("option", {
     value: p,
     key: idx,
     className: "jsx-2747461224",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 47
+      lineNumber: 31
     },
     __self: undefined
   }, p))), __jsx("label", {
@@ -472,17 +445,17 @@ const Layout = ({
     className: "jsx-2747461224",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 52
+      lineNumber: 36
     },
     __self: undefined
   }, "Filter by starship: \xA0"), __jsx("select", {
     defaultValue: state.browseType // onChange={e => handleSelect(e)}
     ,
-    onChange: e => handleFilterByStarship(e),
+    onChange: e => handlers.handleFilterByStarship(e),
     className: "jsx-2747461224" + " " + "filters",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 53
+      lineNumber: 37
     },
     __self: undefined
   }, __jsx("option", {
@@ -490,22 +463,22 @@ const Layout = ({
     className: "jsx-2747461224",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 59
+      lineNumber: 43
     },
     __self: undefined
-  }, "Not set"), state.starshipsList.map((p, idx) => __jsx("option", {
+  }, "Not set"), state.starshipsDropdownList.map((p, idx) => __jsx("option", {
     value: p,
     key: idx,
     className: "jsx-2747461224",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 61
+      lineNumber: 45
     },
     __self: undefined
   }, p)))), children, __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
     id: "2747461224",
     __self: undefined
-  }, "nav.jsx-2747461224{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:row;-ms-flex-direction:row;flex-direction:row;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;}select.typeFilter.jsx-2747461224{padding-right:20px;margin-right:20px;}h4.jsx-2747461224{margin-right:20px;color:transparent;border-right:solid 1px gray;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9yc2JlYXIvZGV2L3N3YXBpcGxheWdyb3VuZC93ZWJhcHAvY29tcG9uZW50cy9sYXlvdXRzL2xheW91dC50c3giXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBbUVrQixBQUd3QixBQU1NLEFBS0Qsa0JBQ0EsQ0FMQSxpQkFNVSxDQUw5QiwyQkFNQSxVQWJxQixxRUFDQSw2RkFDckIiLCJmaWxlIjoiL1VzZXJzL3JzYmVhci9kZXYvc3dhcGlwbGF5Z3JvdW5kL3dlYmFwcC9jb21wb25lbnRzL2xheW91dHMvbGF5b3V0LnRzeCIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBSZWFjdCwgeyBGQyB9IGZyb20gXCJyZWFjdFwiO1xuaW1wb3J0IHsgdXNlVHlwZUZpbHRlciB9IGZyb20gXCIuLi8uLi9ob29rcy91c2VUeXBlRmlsdGVyXCI7XG5pbXBvcnQgd2l0aERhdGEgZnJvbSBcIi4uLy4uL0hPQy93aXRoRGF0YVwiO1xuXG5jb25zdCBMYXlvdXQ6IEZDPGFueT4gPSAoeyBzdGF0ZSwgZGlzcGF0Y2gsIGNoaWxkcmVuIH0pID0+IHtcbiAgLy8gY29uc3QgW3N0YXRlLCBkaXNwYXRjaF0gPSB1c2VUeXBlRmlsdGVyKCk7XG5cbiAgY29uc3QgaGFuZGxlQnJvd3NlU2VsZWN0ID0gZSA9PiB7XG4gICAgZS5wcmV2ZW50RGVmYXVsdCgpO1xuICAgIGRpc3BhdGNoKHsgdHlwZTogXCJzZXRCcm93c2VUeXBlXCIsIHBheWxvYWQ6IGUudGFyZ2V0LnZhbHVlIH0pO1xuICAgIGRpc3BhdGNoKHsgdHlwZTogXCJzZXRNYWluTGlzdFwiLCBwYXlsb2FkOiBbXSB9KTtcbiAgfTtcblxuICBjb25zdCBoYW5kbGVGaWx0ZXJCeUNoYXJhY3RlciA9IGUgPT4ge1xuICAgIGUucHJldmVudERlZmF1bHQoKTtcbiAgICBkaXNwYXRjaCh7IHR5cGU6IFwic2V0RmlsdGVyQnlDaGFyYWN0ZXJcIiwgcGF5bG9hZDogZS50YXJnZXQudmFsdWUgfSk7XG4gIH07XG5cbiAgY29uc3QgaGFuZGxlRmlsdGVyQnlTdGFyc2hpcCA9IGUgPT4ge1xuICAgIGUucHJldmVudERlZmF1bHQoKTtcbiAgICBkaXNwYXRjaCh7IHR5cGU6IFwic2V0RmlsdGVyQnlTdGFyc2hpcFwiLCBwYXlsb2FkOiBlLnRhcmdldC52YWx1ZSB9KTtcbiAgfTtcblxuICByZXR1cm4gKFxuICAgIDxkaXYgY2xhc3NOYW1lPVwibGF5b3V0XCI+XG4gICAgICA8aDM+U1dBUEk8L2gzPlxuICAgICAgPG5hdj5cbiAgICAgICAgPGxhYmVsIGh0bWxGb3I9XCJ0eXBlXCI+QnJvd3NlOiAmbmJzcDs8L2xhYmVsPlxuICAgICAgICA8c2VsZWN0XG4gICAgICAgICAgY2xhc3NOYW1lPVwidHlwZUZpbHRlclwiXG4gICAgICAgICAgZGVmYXVsdFZhbHVlPXtzdGF0ZS5icm93c2VUeXBlfVxuICAgICAgICAgIG9uQ2hhbmdlPXtlID0+IGhhbmRsZUJyb3dzZVNlbGVjdChlKX1cbiAgICAgICAgPlxuICAgICAgICAgIDxvcHRpb24gdmFsdWU9XCJmaWxtc1wiPk1vdmllPC9vcHRpb24+XG4gICAgICAgICAgPG9wdGlvbiB2YWx1ZT1cInBlcnNvbnNcIj5DaGFyYWN0ZXJzPC9vcHRpb24+XG4gICAgICAgICAgPG9wdGlvbiB2YWx1ZT1cInN0YXJzaGlwc1wiPlN0YXJzaGlwczwvb3B0aW9uPlxuICAgICAgICA8L3NlbGVjdD5cbiAgICAgICAgPGg0Pnw8L2g0PlxuICAgICAgICA8bGFiZWwgaHRtbEZvcj1cInR5cGVcIj5GaWx0ZXIgYnkgY2hhcmFjdGVyOiAmbmJzcDs8L2xhYmVsPlxuICAgICAgICA8c2VsZWN0XG4gICAgICAgICAgY2xhc3NOYW1lPVwiZmlsdGVyc1wiXG4gICAgICAgICAgZGVmYXVsdFZhbHVlPXtzdGF0ZS5icm93c2VUeXBlfVxuICAgICAgICAgIG9uQ2hhbmdlPXtlID0+IGhhbmRsZUZpbHRlckJ5Q2hhcmFjdGVyKGUpfVxuICAgICAgICA+XG4gICAgICAgICAgPG9wdGlvbiB2YWx1ZT1cImRlZmF1bHRcIj5ub3Qgc2V0PC9vcHRpb24+XG4gICAgICAgICAge3N0YXRlLmNoYXJhY3Rlckxpc3QubWFwKChwLCBpZHg6IG51bWJlcikgPT4gKFxuICAgICAgICAgICAgPG9wdGlvbiB2YWx1ZT17cH0ga2V5PXtpZHh9PlxuICAgICAgICAgICAgICB7cH1cbiAgICAgICAgICAgIDwvb3B0aW9uPlxuICAgICAgICAgICkpfVxuICAgICAgICA8L3NlbGVjdD5cbiAgICAgICAgPGxhYmVsIGh0bWxGb3I9XCJ0eXBlXCI+RmlsdGVyIGJ5IHN0YXJzaGlwOiAmbmJzcDs8L2xhYmVsPlxuICAgICAgICA8c2VsZWN0XG4gICAgICAgICAgY2xhc3NOYW1lPVwiZmlsdGVyc1wiXG4gICAgICAgICAgZGVmYXVsdFZhbHVlPXtzdGF0ZS5icm93c2VUeXBlfVxuICAgICAgICAgIC8vIG9uQ2hhbmdlPXtlID0+IGhhbmRsZVNlbGVjdChlKX1cbiAgICAgICAgICBvbkNoYW5nZT17ZSA9PiBoYW5kbGVGaWx0ZXJCeVN0YXJzaGlwKGUpfVxuICAgICAgICA+XG4gICAgICAgICAgPG9wdGlvbiB2YWx1ZT1cImRlZmF1bHRcIj5Ob3Qgc2V0PC9vcHRpb24+XG4gICAgICAgICAge3N0YXRlLnN0YXJzaGlwc0xpc3QubWFwKChwLCBpZHg6IG51bWJlcikgPT4gKFxuICAgICAgICAgICAgPG9wdGlvbiB2YWx1ZT17cH0ga2V5PXtpZHh9PlxuICAgICAgICAgICAgICB7cH1cbiAgICAgICAgICAgIDwvb3B0aW9uPlxuICAgICAgICAgICkpfVxuICAgICAgICA8L3NlbGVjdD5cbiAgICAgIDwvbmF2PlxuICAgICAge2NoaWxkcmVufVxuICAgICAgPHN0eWxlIGpzeD57YFxuICAgICAgICBuYXYge1xuICAgICAgICAgIGRpc3BsYXk6IGZsZXg7XG4gICAgICAgICAgZmxleC1kaXJlY3Rpb246IHJvdztcbiAgICAgICAgICBhbGlnbi1pdGVtczogY2VudGVyO1xuICAgICAgICB9XG5cbiAgICAgICAgc2VsZWN0LnR5cGVGaWx0ZXIge1xuICAgICAgICAgIHBhZGRpbmctcmlnaHQ6IDIwcHg7XG4gICAgICAgICAgbWFyZ2luLXJpZ2h0OiAyMHB4O1xuICAgICAgICB9XG5cbiAgICAgICAgaDQge1xuICAgICAgICAgIG1hcmdpbi1yaWdodDogMjBweDtcbiAgICAgICAgICBjb2xvcjogdHJhbnNwYXJlbnQ7XG4gICAgICAgICAgYm9yZGVyLXJpZ2h0OiBzb2xpZCAxcHggZ3JheTtcbiAgICAgICAgfVxuICAgICAgYH08L3N0eWxlPlxuICAgIDwvZGl2PlxuICApO1xufTtcblxuZXhwb3J0IGRlZmF1bHQgTGF5b3V0O1xuIl19 */\n/*@ sourceURL=/Users/rsbear/dev/swapiplayground/webapp/components/layouts/layout.tsx */"));
+  }, "nav.jsx-2747461224{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:row;-ms-flex-direction:row;flex-direction:row;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;}select.typeFilter.jsx-2747461224{padding-right:20px;margin-right:20px;}h4.jsx-2747461224{margin-right:20px;color:transparent;border-right:solid 1px gray;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9yc2JlYXIvZGV2L3N3YXBpcGxheWdyb3VuZC93ZWJhcHAvY29tcG9uZW50cy9sYXlvdXRzL2xheW91dC50c3giXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBbURrQixBQUd3QixBQU1NLEFBS0Qsa0JBQ0EsQ0FMQSxpQkFNVSxDQUw5QiwyQkFNQSxVQWJxQixxRUFDQSw2RkFDckIiLCJmaWxlIjoiL1VzZXJzL3JzYmVhci9kZXYvc3dhcGlwbGF5Z3JvdW5kL3dlYmFwcC9jb21wb25lbnRzL2xheW91dHMvbGF5b3V0LnRzeCIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBSZWFjdCwgeyBGQyB9IGZyb20gXCJyZWFjdFwiO1xuaW1wb3J0IHsgdXNlVHlwZUZpbHRlciB9IGZyb20gXCIuLi8uLi9ob29rcy91c2VUeXBlRmlsdGVyXCI7XG5pbXBvcnQgd2l0aERhdGEgZnJvbSBcIi4uLy4uL0hPQy93aXRoRGF0YVwiO1xuXG5jb25zdCBMYXlvdXQ6IEZDPGFueT4gPSAoeyBzdGF0ZSwgZGlzcGF0Y2gsIGhhbmRsZXJzLCBjaGlsZHJlbiB9KSA9PiB7XG4gIC8vIGNvbnN0IFtzdGF0ZSwgZGlzcGF0Y2hdID0gdXNlVHlwZUZpbHRlcigpO1xuXG4gIHJldHVybiAoXG4gICAgPGRpdiBjbGFzc05hbWU9XCJsYXlvdXRcIj5cbiAgICAgIDxoMz5TV0FQSTwvaDM+XG4gICAgICA8bmF2PlxuICAgICAgICA8bGFiZWwgaHRtbEZvcj1cInR5cGVcIj5Ccm93c2U6ICZuYnNwOzwvbGFiZWw+XG4gICAgICAgIDxzZWxlY3RcbiAgICAgICAgICBjbGFzc05hbWU9XCJ0eXBlRmlsdGVyXCJcbiAgICAgICAgICBkZWZhdWx0VmFsdWU9e3N0YXRlLmJyb3dzZVR5cGV9XG4gICAgICAgICAgb25DaGFuZ2U9e2UgPT4gaGFuZGxlcnMuaGFuZGxlQnJvd3NlKGUpfVxuICAgICAgICA+XG4gICAgICAgICAgPG9wdGlvbiB2YWx1ZT1cImZpbG1zXCI+TW92aWU8L29wdGlvbj5cbiAgICAgICAgICA8b3B0aW9uIHZhbHVlPVwicGVyc29uc1wiPkNoYXJhY3RlcnM8L29wdGlvbj5cbiAgICAgICAgICA8b3B0aW9uIHZhbHVlPVwic3RhcnNoaXBzXCI+U3RhcnNoaXBzPC9vcHRpb24+XG4gICAgICAgIDwvc2VsZWN0PlxuICAgICAgICA8aDQ+fDwvaDQ+XG4gICAgICAgIDxsYWJlbCBodG1sRm9yPVwidHlwZVwiPkZpbHRlciBieSBjaGFyYWN0ZXI6ICZuYnNwOzwvbGFiZWw+XG4gICAgICAgIDxzZWxlY3RcbiAgICAgICAgICBjbGFzc05hbWU9XCJmaWx0ZXJzXCJcbiAgICAgICAgICBkZWZhdWx0VmFsdWU9e3N0YXRlLmJyb3dzZVR5cGV9XG4gICAgICAgICAgb25DaGFuZ2U9e2UgPT4gaGFuZGxlcnMuaGFuZGxlRmlsdGVyQnlDaGFyYWN0ZXIoZSl9XG4gICAgICAgID5cbiAgICAgICAgICA8b3B0aW9uIHZhbHVlPVwiZGVmYXVsdFwiPm5vdCBzZXQ8L29wdGlvbj5cbiAgICAgICAgICB7c3RhdGUuY2hhcmFjdGVyRHJvcGRvd25MaXN0Lm1hcCgocCwgaWR4OiBudW1iZXIpID0+IChcbiAgICAgICAgICAgIDxvcHRpb24gdmFsdWU9e3B9IGtleT17aWR4fT5cbiAgICAgICAgICAgICAge3B9XG4gICAgICAgICAgICA8L29wdGlvbj5cbiAgICAgICAgICApKX1cbiAgICAgICAgPC9zZWxlY3Q+XG4gICAgICAgIDxsYWJlbCBodG1sRm9yPVwidHlwZVwiPkZpbHRlciBieSBzdGFyc2hpcDogJm5ic3A7PC9sYWJlbD5cbiAgICAgICAgPHNlbGVjdFxuICAgICAgICAgIGNsYXNzTmFtZT1cImZpbHRlcnNcIlxuICAgICAgICAgIGRlZmF1bHRWYWx1ZT17c3RhdGUuYnJvd3NlVHlwZX1cbiAgICAgICAgICAvLyBvbkNoYW5nZT17ZSA9PiBoYW5kbGVTZWxlY3QoZSl9XG4gICAgICAgICAgb25DaGFuZ2U9e2UgPT4gaGFuZGxlcnMuaGFuZGxlRmlsdGVyQnlTdGFyc2hpcChlKX1cbiAgICAgICAgPlxuICAgICAgICAgIDxvcHRpb24gdmFsdWU9XCJkZWZhdWx0XCI+Tm90IHNldDwvb3B0aW9uPlxuICAgICAgICAgIHtzdGF0ZS5zdGFyc2hpcHNEcm9wZG93bkxpc3QubWFwKChwLCBpZHg6IG51bWJlcikgPT4gKFxuICAgICAgICAgICAgPG9wdGlvbiB2YWx1ZT17cH0ga2V5PXtpZHh9PlxuICAgICAgICAgICAgICB7cH1cbiAgICAgICAgICAgIDwvb3B0aW9uPlxuICAgICAgICAgICkpfVxuICAgICAgICA8L3NlbGVjdD5cbiAgICAgIDwvbmF2PlxuICAgICAge2NoaWxkcmVufVxuICAgICAgPHN0eWxlIGpzeD57YFxuICAgICAgICBuYXYge1xuICAgICAgICAgIGRpc3BsYXk6IGZsZXg7XG4gICAgICAgICAgZmxleC1kaXJlY3Rpb246IHJvdztcbiAgICAgICAgICBhbGlnbi1pdGVtczogY2VudGVyO1xuICAgICAgICB9XG5cbiAgICAgICAgc2VsZWN0LnR5cGVGaWx0ZXIge1xuICAgICAgICAgIHBhZGRpbmctcmlnaHQ6IDIwcHg7XG4gICAgICAgICAgbWFyZ2luLXJpZ2h0OiAyMHB4O1xuICAgICAgICB9XG5cbiAgICAgICAgaDQge1xuICAgICAgICAgIG1hcmdpbi1yaWdodDogMjBweDtcbiAgICAgICAgICBjb2xvcjogdHJhbnNwYXJlbnQ7XG4gICAgICAgICAgYm9yZGVyLXJpZ2h0OiBzb2xpZCAxcHggZ3JheTtcbiAgICAgICAgfVxuICAgICAgYH08L3N0eWxlPlxuICAgIDwvZGl2PlxuICApO1xufTtcblxuZXhwb3J0IGRlZmF1bHQgTGF5b3V0O1xuIl19 */\n/*@ sourceURL=/Users/rsbear/dev/swapiplayground/webapp/components/layouts/layout.tsx */"));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Layout);
@@ -990,6 +963,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _generated_graphql__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../generated/graphql */ "./generated/graphql.tsx");
+/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/router */ "next/router");
+/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_router__WEBPACK_IMPORTED_MODULE_2__);
 function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
 
 function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { _defineProperty(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
@@ -998,14 +973,16 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 
 
 
+
 const initState = {
   isLoading: true,
   browseType: "films",
   mainList: [],
-  characterList: [],
-  starshipsList: [],
+  characterDropdownList: [],
+  starshipsDropdownList: [],
   filterByCharacter: "",
-  filterByStarship: ""
+  filterByStarship: "",
+  error: ""
 };
 
 const reducer = (state, action) => {
@@ -1026,14 +1003,14 @@ const reducer = (state, action) => {
         isLoading: false
       });
 
-    case "characterList":
+    case "characterDropdownList":
       return _objectSpread({}, state, {
-        characterList: action.payload
+        characterDropdownList: action.payload
       });
 
-    case "starshipsList":
+    case "starshipsDropdownList":
       return _objectSpread({}, state, {
-        starshipsList: action.payload
+        starshipsDropdownList: action.payload
       });
 
     case "setFilterByCharacter":
@@ -1046,6 +1023,11 @@ const reducer = (state, action) => {
         filterByStarship: action.payload
       });
 
+    case "error":
+      return _objectSpread({}, state, {
+        error: "Oops, something went wrong"
+      });
+
     default:
       return [];
   }
@@ -1056,35 +1038,53 @@ const useTypeFilter = () => {
     0: state,
     1: dispatch
   } = Object(react__WEBPACK_IMPORTED_MODULE_0__["useReducer"])(reducer, initState);
+  const router = Object(next_router__WEBPACK_IMPORTED_MODULE_2__["useRouter"])();
   const films = Object(_generated_graphql__WEBPACK_IMPORTED_MODULE_1__["useAllFilmsQuery"])();
   const persons = Object(_generated_graphql__WEBPACK_IMPORTED_MODULE_1__["useAllPersonsQuery"])();
-  const starships = Object(_generated_graphql__WEBPACK_IMPORTED_MODULE_1__["useAllStarshipsQuery"])();
+  const starships = Object(_generated_graphql__WEBPACK_IMPORTED_MODULE_1__["useAllStarshipsQuery"])(); // set the main list by query param
+
+  const param = router.query.browse;
   Object(react__WEBPACK_IMPORTED_MODULE_0__["useEffect"])(() => {
-    if (persons.loading) {
+    dispatch({
+      type: "setBrowseType",
+      payload: param
+    });
+    dispatch({
+      type: "setMainList",
+      payload: []
+    });
+  }, [param]);
+  Object(react__WEBPACK_IMPORTED_MODULE_0__["useEffect"])(() => {
+    // set the drop down lists
+    let loading = persons.loading && starships.loading;
+    let error = persons.error && starships.error;
+    let data = persons.data && starships.data;
+
+    if (loading) {
       dispatch({
         type: 'setLoading'
-      });
-    } else if (!persons.error && persons.data) {
-      let personsArr = persons.data.allPersons.map(p => p.name);
-      dispatch({
-        type: "characterList",
-        payload: personsArr
       });
     }
-  }, [persons, starships]);
-  Object(react__WEBPACK_IMPORTED_MODULE_0__["useEffect"])(() => {
-    if (starships.loading) {
+
+    if (error) {
       dispatch({
-        type: 'setLoading'
+        type: 'error'
       });
-    } else if (!starships.error && starships.data) {
+    }
+
+    if (data) {
+      let personsArr = persons.data.allPersons.map(p => p.name);
       let starshipsArr = starships.data.allStarships.map(s => s.name);
       dispatch({
-        type: "starshipsList",
+        type: "characterDropdownList",
+        payload: personsArr
+      });
+      dispatch({
+        type: "starshipsDropdownList",
         payload: starshipsArr
       });
     }
-  }, [starships]);
+  }, [persons, starships]);
   Object(react__WEBPACK_IMPORTED_MODULE_0__["useEffect"])(() => {
     if (state.browseType === "films") {
       if (films.loading) {
@@ -1098,8 +1098,7 @@ const useTypeFilter = () => {
         });
       }
     }
-  }, [films, state.browseType]);
-  Object(react__WEBPACK_IMPORTED_MODULE_0__["useEffect"])(() => {
+
     if (state.browseType === "persons") {
       if (persons.loading) {
         dispatch({
@@ -1112,8 +1111,7 @@ const useTypeFilter = () => {
         });
       }
     }
-  }, [persons, state.browseType]);
-  Object(react__WEBPACK_IMPORTED_MODULE_0__["useEffect"])(() => {
+
     if (state.browseType === "starships") {
       if (starships.loading) {
         dispatch({
@@ -1126,7 +1124,7 @@ const useTypeFilter = () => {
         });
       }
     }
-  }, [starships, state.browseType]);
+  }, [films, persons, starships, state.browseType]);
   Object(react__WEBPACK_IMPORTED_MODULE_0__["useEffect"])(() => {
     if (state.browseType === "films") {
       if (!films.loading && !films.error) {
@@ -1163,7 +1161,36 @@ const useTypeFilter = () => {
       }
     }
   }, [state.filterByStarship]);
-  return [state, dispatch];
+
+  const handleBrowse = e => {
+    e.preventDefault();
+    router.push(`/?browse=${e.target.value}`, `/?browse=${e.target.value}`, {
+      shallow: true
+    });
+  };
+
+  const handleFilterByCharacter = e => {
+    e.preventDefault();
+    dispatch({
+      type: "setFilterByCharacter",
+      payload: e.target.value
+    });
+  };
+
+  const handleFilterByStarship = e => {
+    e.preventDefault();
+    dispatch({
+      type: "setFilterByStarship",
+      payload: e.target.value
+    });
+  };
+
+  const handlers = {
+    handleBrowse,
+    handleFilterByCharacter,
+    handleFilterByStarship
+  };
+  return [state, dispatch, handlers];
 };
 
 /***/ }),
@@ -1198,25 +1225,26 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 const Landing = ({
   shortId
 }) => {
-  const [state, dispatch] = Object(_hooks_useTypeFilter__WEBPACK_IMPORTED_MODULE_1__["useTypeFilter"])();
+  const [state, dispatch, handlers] = Object(_hooks_useTypeFilter__WEBPACK_IMPORTED_MODULE_1__["useTypeFilter"])();
   return __jsx(_components_layouts_layout__WEBPACK_IMPORTED_MODULE_3__["default"], {
     state: state,
     dispatch: dispatch,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 15
-    },
-    __self: undefined
-  }, __jsx("h1", {
+    handlers: handlers,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 16
     },
     __self: undefined
-  }, "Currently browsing ", state.browseType), state.isLoading && __jsx("h2", {
+  }, __jsx("h1", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 17
+    },
+    __self: undefined
+  }, "Currently browsing ", state.browseType), state.isLoading && __jsx("h2", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18
     },
     __self: undefined
   }, "Loading..."), state.browseType === "films" && state.mainList.map(({
@@ -1231,7 +1259,7 @@ const Landing = ({
     key: id,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 20
+      lineNumber: 21
     },
     __self: undefined
   })), state.browseType === "persons" && state.mainList.map(({
@@ -1244,7 +1272,7 @@ const Landing = ({
     key: id,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 29
+      lineNumber: 30
     },
     __self: undefined
   })), state.browseType === "starships" && state.mainList.map(({
@@ -1255,7 +1283,7 @@ const Landing = ({
     key: id,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 33
+      lineNumber: 34
     },
     __self: undefined
   })));
@@ -1274,7 +1302,7 @@ Landing.getInitialProps = async ctx => {
 
 /***/ }),
 
-/***/ 4:
+/***/ 3:
 /*!*******************************!*\
   !*** multi ./pages/index.tsx ***!
   \*******************************/
@@ -1305,6 +1333,17 @@ module.exports = require("@apollo/client");
 /***/ (function(module, exports) {
 
 module.exports = require("graphql-tag");
+
+/***/ }),
+
+/***/ "next/router":
+/*!******************************!*\
+  !*** external "next/router" ***!
+  \******************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("next/router");
 
 /***/ }),
 

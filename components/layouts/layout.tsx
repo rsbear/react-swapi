@@ -2,24 +2,8 @@ import React, { FC } from "react";
 import { useTypeFilter } from "../../hooks/useTypeFilter";
 import withData from "../../HOC/withData";
 
-const Layout: FC<any> = ({ state, dispatch, children }) => {
+const Layout: FC<any> = ({ state, dispatch, handlers, children }) => {
   // const [state, dispatch] = useTypeFilter();
-
-  const handleBrowseSelect = e => {
-    e.preventDefault();
-    dispatch({ type: "setBrowseType", payload: e.target.value });
-    dispatch({ type: "setMainList", payload: [] });
-  };
-
-  const handleFilterByCharacter = e => {
-    e.preventDefault();
-    dispatch({ type: "setFilterByCharacter", payload: e.target.value });
-  };
-
-  const handleFilterByStarship = e => {
-    e.preventDefault();
-    dispatch({ type: "setFilterByStarship", payload: e.target.value });
-  };
 
   return (
     <div className="layout">
@@ -29,7 +13,7 @@ const Layout: FC<any> = ({ state, dispatch, children }) => {
         <select
           className="typeFilter"
           defaultValue={state.browseType}
-          onChange={e => handleBrowseSelect(e)}
+          onChange={e => handlers.handleBrowse(e)}
         >
           <option value="films">Movie</option>
           <option value="persons">Characters</option>
@@ -40,10 +24,10 @@ const Layout: FC<any> = ({ state, dispatch, children }) => {
         <select
           className="filters"
           defaultValue={state.browseType}
-          onChange={e => handleFilterByCharacter(e)}
+          onChange={e => handlers.handleFilterByCharacter(e)}
         >
           <option value="default">not set</option>
-          {state.characterList.map((p, idx: number) => (
+          {state.characterDropdownList.map((p, idx: number) => (
             <option value={p} key={idx}>
               {p}
             </option>
@@ -54,10 +38,10 @@ const Layout: FC<any> = ({ state, dispatch, children }) => {
           className="filters"
           defaultValue={state.browseType}
           // onChange={e => handleSelect(e)}
-          onChange={e => handleFilterByStarship(e)}
+          onChange={e => handlers.handleFilterByStarship(e)}
         >
           <option value="default">Not set</option>
-          {state.starshipsList.map((p, idx: number) => (
+          {state.starshipsDropdownList.map((p, idx: number) => (
             <option value={p} key={idx}>
               {p}
             </option>
