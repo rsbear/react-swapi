@@ -1,4 +1,5 @@
 import React, { FC } from "react";
+import withHover from "../../HOC/withHover";
 
 interface Props {
   title: string;

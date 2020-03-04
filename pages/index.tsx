@@ -42,4 +42,4 @@ Landing.getInitialProps = async ctx => {
   return { shortId };
 };
 
-export default withData(Landing);
+export default Landing;
