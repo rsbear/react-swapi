@@ -3,26 +3,29 @@ import { GetProps } from "../interfaces/GetProps";
 import { useRouter } from "next/dist/client/router";
 
 import { useTypeFilter } from "../hooks/useTypeFilter";
-import withData from "../HOC/withData";
+import withData from "../hocs/withData";
 import Layout from "../components/layouts/layout";
 import FilmItem from "../components/items/FilmItem";
 import PersonItem from "../components/items/PersonItem";
 import StarshipItem from "../components/items/StarshipItem";
+import FilmsList from "../components/Lists/FilmsList";
 
-const Landing: GetProps<any> = ({ shortId }) => {
-  const [state, dispatch, handlers] = useTypeFilter();
+const Landing: GetProps<any> = props => {
+  // const [state, dispatch, handlers] = useTypeFilter();
 
   return (
-    <Layout state={state} dispatch={dispatch} handlers={handlers}>
-      <h1>Currently browsing {state.browseType}</h1>
+    <Layout>
+      <h1>landing page</h1>
+      <FilmsList />
+      {/* <h1>Currently browsing {state.browseType}</h1>
       {state.isLoading && <h2>Loading...</h2>}
       {state.browseType === "films" &&
         state.mainList.map(({ id, title, characters, starships }: any) => (
           <FilmItem
-            title={title}
-            characters={characters}
-            starships={starships}
-            key={id}
+          // title={title}
+          // characters={characters}
+          // starships={starships}
+          // key={id}
           />
         ))}
       {state.browseType === "persons" &&
@@ -32,14 +35,9 @@ const Landing: GetProps<any> = ({ shortId }) => {
       {state.browseType === "starships" &&
         state.mainList.map(({ id, name }: any) => (
           <StarshipItem name={name} key={id} />
-        ))}
+        ))} */}
     </Layout>
   );
 };
 
-Landing.getInitialProps = async ctx => {
-  const { shortId } = ctx.query;
-  return { shortId };
-};
-
-export default withData(Landing);
+export default withData()(Landing);

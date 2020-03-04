@@ -1,14 +1,14 @@
 import React, { FC } from "react";
 
 interface Props {
-  title: string;
+  title?: string;
   characters?: any;
   starships?: any;
 }
 
 const FilmItem: FC<Props> = ({ title, characters, starships }) => {
   return (
-    <div>
+    <div style={{ backgroundColor: "pink" }}>
       <h3> {title}</h3>
       <p>
         Characters:{" "}
@@ -33,4 +33,5 @@ const FilmItem: FC<Props> = ({ title, characters, starships }) => {
   );
 };
 
+// export default withHover()(FilmItem);
 export default FilmItem;
