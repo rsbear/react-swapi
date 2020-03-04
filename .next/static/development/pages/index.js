@@ -24190,7 +24190,7 @@ Landing.getInitialProps = function _callee(ctx) {
 
 /***/ }),
 
-/***/ 1:
+/***/ 2:
 /*!***************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Frsbear%2Fdev%2Fswapiplayground%2Fwebapp%2Fpages%2Findex.tsx ***!
   \***************************************************************************************************************************************/
@@ -24213,5 +24213,5 @@ module.exports = dll_5f137288facb1107b491;
 
 /***/ })
 
-},[[1,"static/runtime/webpack.js"]]]);
+},[[2,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=index.js.map
